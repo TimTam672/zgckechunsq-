@@ -1,0 +1,270 @@
+/*清除边距*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*加图片*/
+body{
+    background-color:  #d6efd8;
+    font-family: '楷体';
+    
+}
+
+/*header加外边距 流出页面上面距离*/
+.header{
+    margin-top: 25px;
+    height: 125px;
+}
+/*语言部分样式*/
+.language{
+    width: 100%;
+    height: 35px;
+    background-color: #1A5319;
+}
+
+/*导航条部分*/
+.nav{
+    width: 100%;
+    height: 70px;
+    background-color: #80AF81;
+}
+
+/*清除a样式*/
+a{
+    text-decoration: none;
+    color: #101111ce;
+}
+
+/*导航条部分*/
+.nav>ul{
+    margin-left: 310px ;
+    height: 70px;
+}
+.nav>ul>li{
+    height: 70px;
+    padding: 0 15px;
+    float: left;
+    color: white;
+    list-style: none;
+}
+
+.nav>ul>li>a{
+    color: #d6efd8;
+    line-height: 70px;
+    font-weight: 800px;
+    font-size: 18px;
+}
+.nav>ul>li:hover{
+    background-color: #508D4E;
+    height: 70px;
+
+}
+#nav_top{
+            
+    background-color: #508D4E;
+    height: 70px;
+}
+
+.header>img{
+    float: left;
+    margin-left: 0px;
+    
+
+}
+/*banner图部分*/
+.banner{
+    width: 100%;
+    height: 640px;
+    background-color: red;
+    background: url(../kc_img/ban.png) no-repeat;
+    background-size: 100% 340px;
+    overflow: hidden;
+}
+.banner>p{
+    font-size: 56px;
+    color: #508D4E;
+    margin-left: 1000px;
+    margin-top: 35px;
+    background-color: #D6EFD8;
+    border: 7px double #1A5319;
+    border-right: 0px;
+    font-family: 华文琥珀;
+}
+
+/*版心*/
+
+.container{
+    width: 70%;
+   
+    /*background-color: pink;*/
+    top: 200px;
+    padding-bottom: 85px;
+    
+    margin: 0 auto;
+    
+}
+
+.container>.title{
+    width: 100%;
+    height: 55px;
+   
+    line-height: 55px;
+    color: #999;
+    font-size: 14px;
+}
+.container>.title>span{
+    color: #1a5319;
+}
+.container>.title>span:hover{
+    color: #47a881;
+}
+.content{
+    width: 100%;
+    margin-top: 15px;
+}
+.content>h1{
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    font-size: 35px;
+    font-weight: 700;
+    color: #1a5319;
+}
+
+.content>.from{
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 30px;
+    
+}
+
+.content>.img{
+    text-align: center;
+
+
+}
+
+.content>p{
+
+    line-height: 25px;
+    color: #333;
+    text-indent: 2em;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.content>p>span{
+    font-weight: 700;
+    color: #666;
+}
+
+.footer{
+    
+    width: 100%;
+    height: 340px;
+    background-color: #1a5319;
+    color: #d6efd8;
+    padding: 30px 90px;
+    box-sizing: border-box;
+}
+
+.footer>.footerTop{
+    width: 100%;
+    /*background-color: red;*/
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d6efd8;
+}
+
+.footerTop>.left{
+    height: 140px;
+    width: 40%;
+    /*background-color: yellow;*/
+    display: flex;
+    border-right: 1px solid #d6efd8;
+
+}
+
+.footerTop>.left>.leftWorld{
+    width: 60%;
+    height: 100%;
+}
+.footerTop>.left>.leftWorld>h1{
+    font-weight: 400;
+    font-size: 25px;
+}
+.footerTop>.left>.leftWorld>p{
+    font-size: 14px;
+    line-height: 25px;
+}
+.footerTop>.left>.rightPic{
+    width: 40%;
+    height: 100%;
+}
+.footerTop>.left>.rightPic>img{
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.footerTop>.left>.rightPic>p{
+    font-size: 20px;
+    margin-left: 50px;
+    
+    color:#508d4e;
+}
+
+
+
+.footerTop>.right{
+    height: 140px;
+    width: 60%;
+    /*background-color: green;*/
+
+}
+.footerTop>.right{
+    height: 140px;
+    width: 60%;
+    /*background-color: blue;*/
+    padding: 10px 15px;
+    box-sizing: border-box;
+    
+
+
+
+}
+.footerTop>.right>>p{
+    font-size: 14px;
+    line-height: 25px;
+    
+    color:white;
+}
+
+.footerTop>.right>h1{
+    color: #d6efd8;
+    font-size: 25px;
+
+}
+
+
+
+
+
+.footer>.footerbottom>p{
+    margin-top: 20px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #d6efd8;
+    position: relative;
+
+}
+
+.footer>.footerbottom>p>span{
+    color: #d6efd8;
+    position: absolute;
+    right: 0px;
+}
+

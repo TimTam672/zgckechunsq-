@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="中关村街道科春社区-官网">
+    <title>中关村街道科春社区-官网</title>
+    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/kc_index.css">
+</head>
+<body>
+    
+    <div id="plane">
+        <i class="fa fa-paper-plane" aria-hidden="true"></i>
+    </div>
+    <script>
+        let plane=document.getElementById('plane');
+        let deg=0,ex=0,ey=0,vx=0,vy=0,count=0;
+        window.addEventListener('mousemove',(e)=>{
+            ex=e.x-plane.offsetLeft-plane.clientWidth/2;
+            ey=e.y-plane.offsetTop-plane.clientHeight/2;
+            deg=360*Math.atan(ey/ex)/(2*Math.PI)+45;
+            if(ex<0){
+                deg+=180;
+            }
+            count=0;
+        })
+        function draw(){
+            plane.style.transform='rotate('+deg+'deg)';
+            if(count<100){
+                vx+=ex/100;
+                vy+=ey/100;
+            }
+            plane.style.left=vx+'px';
+            plane.style.top=vy+'px';
+            count++;
+        }
+        setInterval(draw, 1);
+    </script>
+    
+    <div class="header">
+        <img src="./kc_img/kckctitle.png" alt="">
+        
+
+        <!--语言-->
+        <div class="language"></div>
+
+        <!--导航条-->
+        <div class="nav">
+            <ul>
+                <li id="nav_top"><a href="#">首页</a></li>
+                <li><a href="./kc_aboutus.html">关于我们</a></li>
+                <li><a href="#更多照片">更多照片</a></li>
+                <li><a href="./kc_hua.html">科春圃子</a></li>
+                <li><a href="./kc_read.html">全民阅读</a></li>
+                <li><a href="./kc_old.html">养老互助社</a></li>
+                <li><a href="#联络我們">联络我們</a></li>
+            </ul>
+            <!--banner图-->
+            <div class="banner">
+                <p>科春共建 有你有我</p>
+                
+            </div>
+        </div>
+    </div>
+    <!--版心-->
+    <div class="container">
+        <!--版心最上面-->
+        <div class="top1">
+            <h1 class="guide"> 精选项目</h1>
+            <br>
+            <br>
+ 
+            <div class="circleBox">
+                <div class="circle">
+                    <img src="./kc_img/huahua.png" alt="">
+                    <div class="world">
+                        
+                        
+                
+                        <div class="coord"><a href="./kc_hua.html">科春圃子</a>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="circle">
+                    <img src="./kc_img/readreadread.png" alt="">
+                    <div class="world">
+                            
+                            
+                    
+                        <div class="coord"><a href="./kc_read.html">全民阅读</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="circle">
+                    <img src="./kc_img/oldold.png" alt=''>
+                    <div class="world">
+                                
+                                
+                        
+                        <div class="coord"><a href="./kc_old.html">养老互助社</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <!--版心第二部分-->
+
+        
+        <div class="top2">
+            <h4 id="更多照片"></h4>
+            <h1 class="guide">更多照片</h1>
+            <br>
+            <ul class="pics">
+                <li>
+                    <img src="./kc_img/qingqing.png" alt="">
+                    <span>悠閑活動</span>
+                </li>
+
+                <li>
+                    <img src="./kc_img/paintpp.png" alt="">
+                    <span>墙体彩繪</span>
+                </li>
+
+                <li>
+                    <img src="./kc_img/f98dcc8f8449e1e63e0afb72cff063c.jpg" alt="">
+                    <span>花卉(一)</span>
+                </li>
+
+                <li>
+                    <img src="./kc_img/微信图片_20240510153805.jpg" alt="">
+                    <span>花卉(二)</span>
+                </li>
+
+                <li>
+                    <img src="./kc_img/getop.png" alt="">
+                    <span>民意测评</span>
+                </li>
+
+
+
+                <li>
+                    <img src="./kc_img/free.png" alt="">
+                    <span>免費体检</span>
+                </li>
+
+                <li>
+                    <img src="./kc_img/bb.png" alt="">
+                    <span>全民阅读</span>
+                </li>
+
+
+
+
+        </div>
+
+        <!--版心的第三部分-->
+        <div class="top3">
+            <h1 class="guide">关于我们</h1>
+            <div class="area">
+                
+
+                <div class="item">
+                    <span><a href="./kc_aboutus.html">坚决维护社区安全</a></span>
+                    <img src="./kc_img/firef.png" alt="">
+                    <div class="pbox">
+                        <p>一警六员消防培訓 持证上岗</p>
+                        <p>定期接受培训 终身学习</p>
+                        <p>雨季汛期24小時在岗待命</p>
+                    </div>
+                    
+                      
+
+                   
+                </div>
+
+                <div class="item">
+                    <span><a href="./kc_aboutus.html">社区服务</a></span>
+                    <img src="./kc_img/微信图片_202303311523481.jpg" alt="">
+                    <div class="pbox">
+                        <p>积极开展便民利民的社区服務</p>
+                        <p>协助居民了解并申请社會福利</p>
+                        <p>免費的法律援助与法律课堂</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <span><a href="./kc_aboutus.html">关爱弱勢社群</a></span>
+                    <img src="./kc_img/微信图片_20231129133616.jpg" alt="">
+                    <div class="pbox">
+                        <p>定期探訪孤寡老人</p>
+                        
+                        <p>提供免費的技能培訓</p>
+                        <p>协助退役军人和失业人员再就业</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <span>
+                        <a href="./kc_aboutus.html">接诉即办专班小组</a></span>
+                    <img src="./kc_img/team.png" alt="">
+                    <div class="pbox">
+                        <p>提供专业的调解服务</p>
+                        <p>接诉即办专班小組24小時在缐</p>
+                        <p>解决社區各種从小到大的问题</p>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <h1 id="联络我们"></h1>
+       <!--底部-->
+       <div class="footer">
+        <!--底部的上面部分-->
+        <div class="footerTop">
+            <div class="left">
+                <div class="leftWorld">
+                    <br>
+                    <h1>中关村街道科春社區</h1>
+                    <p>共青团北京市海淀区委员会</p>
+                    <p>北京市海淀区志願服務联合会</p>
+                    <p>社区花园养护志願服務项目荣获2023年"爱在海淀"优秀项目</p>
+                </div>
+
+                <div class="rightPic">
+                    <img src="./img/qrcode.jpg" alt="">
+                    <p>扫码进群</p>
+                    
+                </div>
+            </div>
+            
+            <div class="right">
+                <h1>联络我们</h1>
+                    <p>电邮：ZGCkechunsq@.163.com；</p>
+                    <p>电话：62537514</p>
+                    <p>地址：北京市海淀区中关村南一街11-5号</p>
+                    <p>工作日办公时间： 周一至周五  上午 8:30-11:30   下午 13:30-17:00</p>
+                    <p>预约服务时间：     周一至周五  17:00-20:00   周六 9:00-12:00</p>
+                    
+                
+                    
+                
+            </div>
+
+        </div>
+        <!--下边部分-->
+        <div class="footerbottom">
+            <p id="联络我們">预约周一至周五服務请於当日16:30前完成预约
+                <br>
+                预约周六服務请於周五17:00前完成预约</p>
+
+            <p><span>制作者：京港城市更新实习青年-谭永晴</span></p>
+        </div>
+
+
+    </div>
+
+</body>
+</html>
