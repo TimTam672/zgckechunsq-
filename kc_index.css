@@ -3,15 +3,14 @@
     margin: 0;
     padding: 0;
 }
+
 /*加图片*/
 body{
     background: linear-gradient(125deg,#2c3e50,#27Ae60,#2980bd,#e74c3c,#8e44d8);
     font-family: '楷体';
-    background-size: 300%;
-
-
-    
+    background-size: 300%;  
 }
+
 #plane{
     color: #fff;
     font-size: 50px;
@@ -28,6 +27,7 @@ body{
     margin-top: 25px;
     height: 445px;
 }
+
 /*语言部分样式*/
 .language{
     width: 100%;
@@ -53,6 +53,7 @@ a{
     margin-left: 310px ;
     height: 70px;
 }
+
 .nav>ul>li{
     height: 70px;
     padding: 0 15px;
@@ -67,11 +68,12 @@ a{
     font-weight: 800px;
     font-size: 18px;
 }
+
 .nav>ul>li:hover{
     background-color: #508D4E;
     height: 70px;
-
 }
+
 #nav_top{
             
     background-color: #508D4E;
@@ -84,6 +86,7 @@ a{
     
 
 }
+
 /*banner图部分*/
 .banner{
     width: 100%;
@@ -93,6 +96,7 @@ a{
     background-size: 100% 340px;
     overflow: hidden;
 }
+
 .banner>p{
     font-size: 56px;
     color: #508D4E;
@@ -103,6 +107,7 @@ a{
     border-right: 0px;
     font-family: '楷体';
 }
+
 .banner>h2>.img{
     left: 450px;
     float: right;
@@ -110,7 +115,6 @@ a{
 
 /*版心第一部分*/
 .guide{
-
     width: 100%;
     height: 85px;
     /*background-color: pink;*/
@@ -121,7 +125,6 @@ a{
 }  
 
 .top3>.guide{
-
     width: 100%;
     height: 85px;
     /*background-color: pink;*/
@@ -132,7 +135,6 @@ a{
 }  
 
 .top2>.guide{
-
     width: 100%;
     height: 85px;
     /*background-color: pink;*/
@@ -141,10 +143,8 @@ a{
     background: url(../img/tit-line.png) no-repeat center center;
     color: #d6efd8;
 }  
-
 
 .top1>.guide{
-
     width: 100%;
     height: 85px;
     /*background-color: pink;*/
@@ -153,8 +153,6 @@ a{
     background: url(../img/tit-line.png) no-repeat center center;
     color: #d6efd8;
 }  
-
-
 
 /*文字部分*/
 .top1{
@@ -170,20 +168,17 @@ a{
     font-size: 18px;
     color: #508d4e;
 }
-.top1>p>a{
-    
+
+.top1>p>a{ 
     font-style: italic;
     font-size: 18px;
     color: #508d4e;
-
 }
 
 .top1>p>a:hover{
-    
     font-style: italic;
     font-size: 18px;
     color: #666;
-
 }
 
 .top1>.circleBox>.circle{
@@ -199,12 +194,12 @@ a{
     height: 100%;
 
 }
+
 .circle{
     margin-left: 60px;
     margin-right: 60px;
-
-
 }
+
 .circle>.world{
     width: 100%;
     height: 100px;
@@ -249,8 +244,6 @@ a{
     justify-content: space-between;
     padding: 0px 70px;
     box-sizing: border-box;
-    
-    
 }
 
 .top2>.pics>li{
@@ -258,10 +251,7 @@ a{
     height: 300px;
     list-style: none;
     margin-bottom: 50px;
-    position: relative;
-
-
-    
+    position: relative;    
 }
 
 .container>hr{
@@ -276,7 +266,6 @@ a{
 .top2>.pics>li:nth-of-type(7){
     width: 660px;
 }
-
 
 .top2>.pics>li>span{
     background-color: #508D4E;
@@ -318,15 +307,13 @@ a{
 @keyframes rotate {
     100%{
         transform: rotate(360deg);
-    }
-    
+    }    
 }
+
 /*版心第三部分*/
 .guide{
-
     width: 100%;
-    height: 85px;
-    
+    height: 85px; 
     text-align: center;
     line-height: 85px;
     background: url(../img/tit-line.png) no-repeat center center;
@@ -340,8 +327,6 @@ height: 600px;
 padding: 0px 70px;
 box-sizing: border-box;
 /*background-color: #508d4e;*/
-
-
 }
 
 .top3>.area{
@@ -375,14 +360,12 @@ height:350px;
     font-weight: 600;
     position: absolute;
     top: 16px;
-    right: 0px;
-    
+    right: 0px;    
     }
 
 .top3>.area>.item>span>a:hover{
     color: #1a5319;
 }
-
 
 .top3>.area>.item>ul{
     list-style: none;
@@ -430,7 +413,6 @@ height:350px;
 }
 
 /*底部*/
-
 .footer{
     
     width: 100%;
@@ -464,64 +446,57 @@ height:350px;
     width: 60%;
     height: 100%;
 }
+
 .footerTop>.left>.leftWorld>h1{
     font-weight: 400;
     font-size: 25px;
 }
+
 .footerTop>.left>.leftWorld>p{
     font-size: 14px;
     line-height: 25px;
 }
+
 .footerTop>.left>.rightPic{
     width: 40%;
     height: 100%;
 }
+
 .footerTop>.left>.rightPic>img{
     margin-top: 15px;
     margin-left: 30px;
 }
+
 .footerTop>.left>.rightPic>p{
     font-size: 20px;
-    margin-left: 10px;
-    
+    margin-left: 70px;    
     color:#508d4e;
 }
-
-
 
 .footerTop>.right{
     height: 140px;
     width: 60%;
     /*background-color: green;*/
-
 }
+
 .footerTop>.right{
     height: 140px;
     width: 60%;
     /*background-color: blue;*/
     padding: 10px 15px;
     box-sizing: border-box;
-    
-
-
-
 }
+
 .footerTop>.right>>p{
     font-size: 14px;
-    line-height: 25px;
-    
+    line-height: 25px;    
     color:white;
 }
 
 .footerTop>.right>h1{
     color: #d6efd8;
     font-size: 25px;
-
 }
-
-
-
-
 
 .footer>.footerbottom>p{
     margin-top: 20px;
@@ -531,7 +506,6 @@ height:350px;
     font-size: 14px;
     color: #d6efd8;
     position: relative;
-
 }
 
 .footer>.footerbottom>p>span{
@@ -539,179 +513,3 @@ height:350px;
     position: absolute;
     right: 0px;
 }
-
-.loader{
-    width: 48px;
-    height: 48px;
-    margin: auto;
-    position: relative;
-}
-
-.loader::before{
-    content: '';
-    width: 48px;
-    height: 5px;
-    background-color: brown;
-    position: absolute;
-    top: 60px;
-    left: 0%;
-    border-radius: 50%;
-    animation: shadow01 0.5s linear infinite;
-}
-
-.loader::after{
-    content: '';
-    width: 100%;
-    height: 100%;
-    background-color: pink;
-    position: absolute;
-    top: 0;
-    left: 0%;
-    border-radius: 4px;
-    animation: jump01 0.5s linear infinite;
-}
-
-@keyframes jump01 {
-     15%{
-        border-bottom-right-radius: 3px;
-     }
-     25%{
-        transform:translateY(9px) rotate(22.5deg);
-     }
-     50%{
-        transform:translateY(18px) scale(1,0.9) rotate(45deg);
-        border-bottom-right-radius: 40px;
-     }
-     75%{
-        transform:translateY(9px) rotate(67.5deg);
-     }
-     100%{
-        transform:translateY(0) rotate(90deg);
-     }
-}
-@keyframes shadow01 {
-    0%,
-    100%{
-        transform:scale(1,1)
-    }
-}
-
-.loader-wrapper{
-    height: 100%;
-    width: 100%; 
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: pink;
-}
-
-
-.bird_body{
-    position: relative;
-    width: 30px;
-    height: 40px;
-    background-color: white;
-
-}
-
-.bird_head{
-    position: absolute;
-    top: -30px;
-    border-right: 15px solid transparent;
-    border-bottom: 30px solid white;
-    border-radius: 15px solid transparent;
-    border-left: 15px solid transparent;
-    transform-origin: 50% 100%;
-    transform: rotateX(-20deg);
-}
-.bird_wing_left{
-   position: absolute;
-   left: -30px;
-   height: 30px;
-   border-right: 30px solid white;
-   border-bottom:10px solid transparent ;
-   transform-origin: 100% 0;
-   animation: wingleft 1s cubic-bezier(0.39, 0.575, 0.565, 1) infinite alternate;
-}
-
-.bird_wing_left_top{
-    position: absolute;
-    left: -30px;
-    border-right: 30px solid white;
-    border-bottom: 30px solid transparent;
-    transform-origin: 100% 0;
-   animation: wingleft 1s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite alternate;
-}
-.bird_wing_right{
-    position: absolute;
-    left: 30px;
-    height: 30px;
-    border-left: 30px solid white;
-    border-bottom:10px solid transparent ;
-    transform-origin: 100% 0;
-   animation: wingright 1s cubic-bezier(0.39, 0.575, 0.565, 1) infinite alternate;
- }
- 
- .bird_wing_right_top{
-     position: absolute;
-     
-     border-left: 30px solid white;
-     border-bottom: 30px solid transparent;
-     transform-origin: 0 0;
-   animation: wingright 1s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite alternate;
- }
-
- .bird_tail_left{
-    position: absolute;
-    top: 40px;
-    border-right: 30px solid transparent;
-    border-top: 40px solid white;
-    transform-origin: 50% 0;
-    transform: rotateX(-20deg);
- }
-
- .bird_tail_right{
-    position: absolute;
-    top: 40px;
-    border-left: 30px solid white;
-    border-top: 40px solid white;
-    transform-origin: 50% 0;
-    transform: rotateX(-20deg);
- }
- @keyframes wingleft {
-    0%{
-        transform: rotateY(-40deg);
-    }
-    100%{
-        transform: rotateY(40deg);
-    }
-    
- }
- @keyframes wingright {
-    0%{
-        transform: rotateY(40deg);
-    }
-    100%{
-        transform: rotateY(-40deg);
-    }
-    
- }
-@keyframes fly {
-    0%{
-        transform: rotateX(-120deg) rotateZ(0deg) rotateX(10deg);
-    }
-    100%{
-        transform: rotateX(-120deg) rotateZ(360deg) rotateX(10deg);
-    }
-}
- .bird_box{
-    margin-top: -40px;
-    perspective: 400px;
-    filter: drop-shadow(0px 150px 10px rgba(0,0,0,0.2));
- }
- .bird{
-    animation: fly 10s linear infinite;
- }
- .bird_box div{
-    transform-style: preserve-3d;
- }
