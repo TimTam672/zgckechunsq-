@@ -132,6 +132,46 @@ a{
     color: #1a5319;
 }
 
+.content>h2{
+
+    line-height: 25px;
+    color: #333;
+    
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.content>h3{
+
+    line-height: 25px;
+    color: #333;
+    
+    
+    margin-bottom: 5px;
+    font-size: 19px;
+    text-indent: 2em;
+}
+.content>p{
+
+    line-height: 25px;
+    color: #333;
+    text-indent: 2em;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+.content>h4{
+
+    line-height: 25px;
+    color: #333;
+    text-indent: 4em;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.content>p>span{
+    font-weight: 700;
+    color: #666;
+
 .content>.from{
     text-align: center;
     font-size: 14px;
@@ -144,19 +184,7 @@ a{
     text-align: center;
 }
 
-.content>p{
 
-    line-height: 25px;
-    color: #333;
-    text-indent: 2em;
-    margin-bottom: 30px;
-    font-size: 18px;
-}
-
-.content>p>span{
-    font-weight: 700;
-    color: #666;
-}
 
 .footer{
     
