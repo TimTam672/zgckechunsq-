@@ -138,6 +138,15 @@ a{
     text-indent: 2em;
 }
 
+.content>h1{
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    font-size: 35px;
+    font-weight: 700;
+    color: #1a5319;
+}
+
 .content>p{
     line-height: 25px;
     color: #333;
