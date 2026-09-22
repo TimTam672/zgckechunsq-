@@ -2,7 +2,7 @@
 
 This repository hosts the official landing and informational website for the Kechun Community in Haidian District, Beijing. Created by "Hong Kong-Beijing Urban Renewal Internship Youth - Wing Ching Tam (TimTam672)", this site showcases community co-construction initiatives, volunteer achievements, and provides an accessible portal for resident services.
 
-🔗 **[Live Project Link](https://github.io)**
+🔗 **[Live Project Link](https://timtam672.github.io/zgckechunsq-/)**
 
 ---
 
