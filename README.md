@@ -1,6 +1,6 @@
 # Zhongguancun Street Kechun Community Official Website
 
-This repository hosts the official landing and informational website for the Kechun Community in Haidian District, Beijing. Created by "Hong Kong-Beijing Urban Renewal Internship Youth - Wing Ching Tam (TimTam672)", this site showcases community co-construction initiatives, volunteer achievements, and provides an accessible portal for resident services.
+This repository hosts the official landing and informational website for the Kechun Community in Haidian District, Beijing. Developed during the "HKMMDA 3 Trip: Hong Kong-Beijing Urban Renewal Internship Program," this platform showcases community co-construction initiatives, highlights local volunteer achievements, and provides an accessible, responsive portal for essential resident services.
 
 🔗 **[Live Project Link](https://timtam672.github.io/zgckechunsq-/)**
 
@@ -13,6 +13,8 @@ This repository hosts the official landing and informational website for the Kec
 * **Contact & Appointment System**: Integrates maps, standard office hours, and instructions for booking weekday evening or Saturday morning extended-service appointments.
 
 ---
+
+![index](https://github.com/TimTam672/zgckechunsq-/blob/360d4d03faa0151303531031d010bc4281aebd7d/screenshot/index.png)
 
 ## 🛠️ Tech Stack
 * **Frontend Basics**: HTML5 / CSS3 (Responsive design optimized for multiple screen sizes)
