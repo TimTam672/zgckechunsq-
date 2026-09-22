@@ -2,7 +2,7 @@
 
 This repository hosts the official landing and informational website for the Kechun Community in Haidian District, Beijing. Developed during the "HKMMDA 3 Trip: Hong Kong-Beijing Urban Renewal Internship Program," this platform showcases community co-construction initiatives, highlights local volunteer achievements, and provides an accessible, responsive portal for essential resident services.
 
-🔗 **[Live Project Link](https://timtam672.github.io/zgckechunsq-/)**
+🔗 **[Website](https://timtam672.github.io/zgckechunsq-/)**
 
 ---
 
