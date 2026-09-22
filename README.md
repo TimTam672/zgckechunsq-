@@ -17,7 +17,7 @@ This repository hosts the official landing and informational website for the Kec
 ![index](https://github.com/TimTam672/zgckechunsq-/blob/360d4d03faa0151303531031d010bc4281aebd7d/screenshot/index.png)
 
 ## 🛠️ Tech Stack
-* **Frontend Basics**: HTML5 / CSS3 (Responsive design optimized for multiple screen sizes)
+* **Frontend Basics**: HTML5 / CSS3
 * **Hosting**: GitHub Pages
 
 ---
